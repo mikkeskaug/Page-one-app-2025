@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62AFE30A2D54BC9E00F998C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 62AFE3092D54BC9E00F998C2 /* FirebaseAnalytics */; };
+		62DF11D52D4C1D69008F376F /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 62DF11D42D4C1D69008F376F /* CodeScanner */; };
+		62DF11D82D4C1D96008F376F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 62DF11D72D4C1D96008F376F /* FirebaseAuth */; };
+		62DF11DA2D4C1D96008F376F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 62DF11D92D4C1D96008F376F /* FirebaseFirestore */; };
+		62DF11DC2D4C1D96008F376F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 62DF11DB2D4C1D96008F376F /* FirebaseStorage */; };
+		62DF11E72D50016F008F376F /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 62DF11E62D50016F008F376F /* FirebaseMessaging */; };
+		62DF11EF2D539586008F376F /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 62DF11EE2D539586008F376F /* FirebaseInAppMessaging-Beta */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62DF11B72D4C1D47008F376F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62DF119D2D4C1D45008F376F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62DF11A42D4C1D45008F376F;
+			remoteInfo = "Page one kundeklubb";
+		};
+		62DF11C12D4C1D47008F376F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62DF119D2D4C1D45008F376F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62DF11A42D4C1D45008F376F;
+			remoteInfo = "Page one kundeklubb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62DF11A52D4C1D45008F376F /* Page one kundeklubb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Page one kundeklubb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DF11B62D4C1D47008F376F /* Page one kundeklubbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Page one kundeklubbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DF11C02D4C1D47008F376F /* Page one kundeklubbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Page one kundeklubbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		62DF11A72D4C1D45008F376F /* Page one kundeklubb */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Page one kundeklubb";
+			sourceTree = "<group>";
+		};
+		62DF11B92D4C1D47008F376F /* Page one kundeklubbTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Page one kundeklubbTests";
+			sourceTree = "<group>";
+		};
+		62DF11C32D4C1D47008F376F /* Page one kundeklubbUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Page one kundeklubbUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62DF11A22D4C1D45008F376F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AFE30A2D54BC9E00F998C2 /* FirebaseAnalytics in Frameworks */,
+				62DF11D52D4C1D69008F376F /* CodeScanner in Frameworks */,
+				62DF11DC2D4C1D96008F376F /* FirebaseStorage in Frameworks */,
+				62DF11E72D50016F008F376F /* FirebaseMessaging in Frameworks */,
+				62DF11D82D4C1D96008F376F /* FirebaseAuth in Frameworks */,
+				62DF11DA2D4C1D96008F376F /* FirebaseFirestore in Frameworks */,
+				62DF11EF2D539586008F376F /* FirebaseInAppMessaging-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DF11B32D4C1D47008F376F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DF11BD2D4C1D47008F376F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62DF119C2D4C1D45008F376F = {
+			isa = PBXGroup;
+			children = (
+				62DF11A72D4C1D45008F376F /* Page one kundeklubb */,
+				62DF11B92D4C1D47008F376F /* Page one kundeklubbTests */,
+				62DF11C32D4C1D47008F376F /* Page one kundeklubbUITests */,
+				62DF11A62D4C1D45008F376F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62DF11A62D4C1D45008F376F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62DF11A52D4C1D45008F376F /* Page one kundeklubb.app */,
+				62DF11B62D4C1D47008F376F /* Page one kundeklubbTests.xctest */,
+				62DF11C02D4C1D47008F376F /* Page one kundeklubbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62DF11A42D4C1D45008F376F /* Page one kundeklubb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DF11CA2D4C1D47008F376F /* Build configuration list for PBXNativeTarget "Page one kundeklubb" */;
+			buildPhases = (
+				62DF11A12D4C1D45008F376F /* Sources */,
+				62DF11A22D4C1D45008F376F /* Frameworks */,
+				62DF11A32D4C1D45008F376F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				62DF11A72D4C1D45008F376F /* Page one kundeklubb */,
+			);
+			name = "Page one kundeklubb";
+			packageProductDependencies = (
+				62DF11D42D4C1D69008F376F /* CodeScanner */,
+				62DF11D72D4C1D96008F376F /* FirebaseAuth */,
+				62DF11D92D4C1D96008F376F /* FirebaseFirestore */,
+				62DF11DB2D4C1D96008F376F /* FirebaseStorage */,
+				62DF11E62D50016F008F376F /* FirebaseMessaging */,
+				62DF11EE2D539586008F376F /* FirebaseInAppMessaging-Beta */,
+				62AFE3092D54BC9E00F998C2 /* FirebaseAnalytics */,
+			);
+			productName = "Page one kundeklubb";
+			productReference = 62DF11A52D4C1D45008F376F /* Page one kundeklubb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62DF11B52D4C1D47008F376F /* Page one kundeklubbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DF11CD2D4C1D47008F376F /* Build configuration list for PBXNativeTarget "Page one kundeklubbTests" */;
+			buildPhases = (
+				62DF11B22D4C1D47008F376F /* Sources */,
+				62DF11B32D4C1D47008F376F /* Frameworks */,
+				62DF11B42D4C1D47008F376F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62DF11B82D4C1D47008F376F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62DF11B92D4C1D47008F376F /* Page one kundeklubbTests */,
+			);
+			name = "Page one kundeklubbTests";
+			packageProductDependencies = (
+			);
+			productName = "Page one kundeklubbTests";
+			productReference = 62DF11B62D4C1D47008F376F /* Page one kundeklubbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62DF11BF2D4C1D47008F376F /* Page one kundeklubbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DF11D02D4C1D47008F376F /* Build configuration list for PBXNativeTarget "Page one kundeklubbUITests" */;
+			buildPhases = (
+				62DF11BC2D4C1D47008F376F /* Sources */,
+				62DF11BD2D4C1D47008F376F /* Frameworks */,
+				62DF11BE2D4C1D47008F376F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62DF11C22D4C1D47008F376F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62DF11C32D4C1D47008F376F /* Page one kundeklubbUITests */,
+			);
+			name = "Page one kundeklubbUITests";
+			packageProductDependencies = (
+			);
+			productName = "Page one kundeklubbUITests";
+			productReference = 62DF11C02D4C1D47008F376F /* Page one kundeklubbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62DF119D2D4C1D45008F376F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					62DF11A42D4C1D45008F376F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					62DF11B52D4C1D47008F376F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 62DF11A42D4C1D45008F376F;
+					};
+					62DF11BF2D4C1D47008F376F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 62DF11A42D4C1D45008F376F;
+					};
+				};
+			};
+			buildConfigurationList = 62DF11A02D4C1D45008F376F /* Build configuration list for PBXProject "Page one kundeklubb" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62DF119C2D4C1D45008F376F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				62DF11D32D4C1D69008F376F /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 62DF11A62D4C1D45008F376F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62DF11A42D4C1D45008F376F /* Page one kundeklubb */,
+				62DF11B52D4C1D47008F376F /* Page one kundeklubbTests */,
+				62DF11BF2D4C1D47008F376F /* Page one kundeklubbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62DF11A32D4C1D45008F376F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DF11B42D4C1D47008F376F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DF11BE2D4C1D47008F376F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62DF11A12D4C1D45008F376F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DF11B22D4C1D47008F376F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DF11BC2D4C1D47008F376F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62DF11B82D4C1D47008F376F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62DF11A42D4C1D45008F376F /* Page one kundeklubb */;
+			targetProxy = 62DF11B72D4C1D47008F376F /* PBXContainerItemProxy */;
+		};
+		62DF11C22D4C1D47008F376F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62DF11A42D4C1D45008F376F /* Page one kundeklubb */;
+			targetProxy = 62DF11C12D4C1D47008F376F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62DF11C82D4C1D47008F376F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62DF11C92D4C1D47008F376F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		62DF11CB2D4C1D47008F376F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Page one kundeklubb/Page_one_kundeklubb.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Page one kundeklubb/Preview Content\"";
+				DEVELOPMENT_TEAM = UGVVQFYYWS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Page-one-kundeklubb-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Page one";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Vi bruker ditt kamera kun for Face ID innlogging.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Vi bruker Face ID for rask innlogging.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Vi bruker din lokasjon for å vise veibeskrivelser";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Vi bruker din lokasjon for å vise veibeskrivelser";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Vår app kan vise ditt bildebibliotek for å velge profilbilde.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pageone.Page-One---Din-lokale-Apple-forhandler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		62DF11CC2D4C1D47008F376F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Page one kundeklubb/Page_one_kundeklubb.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Page one kundeklubb/Preview Content\"";
+				DEVELOPMENT_TEAM = UGVVQFYYWS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Page-one-kundeklubb-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Page one";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Vi bruker ditt kamera kun for Face ID innlogging.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Vi bruker Face ID for rask innlogging.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Vi bruker din lokasjon for å vise veibeskrivelser";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Vi bruker din lokasjon for å vise veibeskrivelser";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Vår app kan vise ditt bildebibliotek for å velge profilbilde.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pageone.Page-One---Din-lokale-Apple-forhandler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		62DF11CE2D4C1D47008F376F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGVVQFYYWS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mi-to-creative.Page-one-kundeklubbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Page one kundeklubb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Page one kundeklubb";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		62DF11CF2D4C1D47008F376F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGVVQFYYWS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mi-to-creative.Page-one-kundeklubbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Page one kundeklubb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Page one kundeklubb";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		62DF11D12D4C1D47008F376F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGVVQFYYWS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mi-to-creative.Page-one-kundeklubbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Page one kundeklubb";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		62DF11D22D4C1D47008F376F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGVVQFYYWS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mi-to-creative.Page-one-kundeklubbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Page one kundeklubb";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62DF11A02D4C1D45008F376F /* Build configuration list for PBXProject "Page one kundeklubb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DF11C82D4C1D47008F376F /* Debug */,
+				62DF11C92D4C1D47008F376F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DF11CA2D4C1D47008F376F /* Build configuration list for PBXNativeTarget "Page one kundeklubb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DF11CB2D4C1D47008F376F /* Debug */,
+				62DF11CC2D4C1D47008F376F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DF11CD2D4C1D47008F376F /* Build configuration list for PBXNativeTarget "Page one kundeklubbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DF11CE2D4C1D47008F376F /* Debug */,
+				62DF11CF2D4C1D47008F376F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DF11D02D4C1D47008F376F /* Build configuration list for PBXNativeTarget "Page one kundeklubbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DF11D12D4C1D47008F376F /* Debug */,
+				62DF11D22D4C1D47008F376F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62DF11D32D4C1D69008F376F /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
+		62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62AFE3092D54BC9E00F998C2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		62DF11D42D4C1D69008F376F /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D32D4C1D69008F376F /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		62DF11D72D4C1D96008F376F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		62DF11D92D4C1D96008F376F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		62DF11DB2D4C1D96008F376F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		62DF11E62D50016F008F376F /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		62DF11EE2D539586008F376F /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62DF11D62D4C1D96008F376F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 62DF119D2D4C1D45008F376F /* Project object */;
+}
